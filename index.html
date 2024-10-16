@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Gallery</title>
+	<link rel="stylesheet" href="css/gallery.css">
+	<script src = "js/gallery.js"></script>
+</head>
+<body onload="load()">
+	
+	<main class="bb">
+		<img class="danceLT" src="img/dance.gif" />
+		<img class="danceRT" src="img/dance.gif" />
+		<img class="danceLD" src="img/dance.gif" />
+		<img class="danceRD" src="img/dance.gif" />
+		<img class="background" src="img/Back.jpg" alt="Background" />
+
+		<div id="image">
+			Lethal Company Monsters
+		</div>
+		<div class="flex">
+			<img class="preview" alt="Hoarding Bug" src="img/Yipee.jpg" onmouseover="upDate(this)" onmouseout="unDo()">
+
+			<img class="preview" alt="Bracken" src="img/Bracken.jpg" onmouseover="upDate(this)" onmouseout="unDo()">
+
+			<img class="preview" src="img/Dog.jpg" alt="Blind Dog" onmouseover="upDate(this)" onmouseout="unDo()">
+
+			<img class="preview" alt="Coil Head" src="img/Coilhead.jpg" onmouseover="upDate(this)" onmouseout="unDo()">
+
+			<img class="preview" alt="Forest Giant" src="img/Giant.jpg" onmouseover="upDate(this)" onmouseout="unDo()">
+
+			<img class="preview" alt="Masked" src="img/Masked.jpg" onmouseover="upDate(this)" onmouseout="unDo()">
+		</div>
+	</main>
+</body>
+</html>
